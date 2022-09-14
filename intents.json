@@ -1,0 +1,16 @@
+{"intents":
+[
+  { "tag": "saudacao",
+    "patterns":["ola", "oi"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","obrigado","tks"],
+    "responses": ["Até breve","Falou"]
+  },
+  { "tag": "info exterior",
+    "patterns":["informações sobre estudar no exterior"],
+    "responses": ["O Centro Universitário FEI mantém convênios de colaboração com instituições estrangeiras permitindo que a comunidade acadêmica tenha substanciais experiências no exterior.tudar no exterior. Visando oferecer novas oportunidades para a qualificação profissional e formação acadêmica da comunidade, o Centro Universitário FEI estabelece parcerias com instituições de ensino no exterior e promove diferentes projetos de colaboração internacional, incluindo os programas de intercâmbio cultural e/ou científico e os de dupla diplomação."]
+  }
+]
+}
