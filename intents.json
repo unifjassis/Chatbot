@@ -2,15 +2,35 @@
 [
   { "tag": "saudacao",
     "patterns":["ola", "oi"],
-    "responses": ["Oi","Olá"]
+    "responses": ["Oi","Ola"]
   },
   { "tag": "despedida",
     "patterns":["valeu","tchau","obrigado","tks"],
-    "responses": ["Até breve","Falou"]
+    "responses": ["Ate breve","Falou"]
   },
   { "tag": "info exterior",
-    "patterns":["informações sobre estudar no exterior"],
-    "responses": ["O Centro Universitário FEI mantém convênios de colaboração com instituições estrangeiras permitindo que a comunidade acadêmica tenha substanciais experiências no exterior.tudar no exterior. Visando oferecer novas oportunidades para a qualificação profissional e formação acadêmica da comunidade, o Centro Universitário FEI estabelece parcerias com instituições de ensino no exterior e promove diferentes projetos de colaboração internacional, incluindo os programas de intercâmbio cultural e/ou científico e os de dupla diplomação."]
+    "patterns":["informações sobre estudar no exterior", "estudar no exterior", "info exterior"],
+    "responses": ["O Centro Universitario FEI mantem convenios de colaboracao com instituicoes estrangeiras permitindo que a comunidade academica tenha substanciais experiencias no exterior. Visando oferecer novas oportunidades para a qualificacao profissional e formacao academica da comunidade, o Centro Universitario FEI estabelece parcerias com instituicoes de ensino no exterior e promove diferentes projetos de colaboracao internacional, incluindo os programas de intercambio cultural e/ou cientifico e os de dupla diplomacao.\n"]
+  },
+  {
+    "tag": "bolsas de estudos",
+    "patterns":["bolsa", "bolsas", "bolsas de estudos", "info bolsas de estudos"],
+    "responses": ["O Centro Universitario FEI oferece, atraves de parceiros, a oportunidade dos seus alunos participarem de processos seletivos para bolsas de estudo no exterior. Veja alguns exemplos abaixo:\n\nPrograma TOP ESPANA\nBrafitec\nSantander Universidades\nBolsas Ibero-Americanas Santander\nPrograma Santander Mundi\n"]
+  },
+  {
+    "tag": "convenios internacionais",
+    "patterns":["principais convenios", "convenios internacionais", "convenios aceitos", "convenios"],
+    "responses": ["Segue lista dos principais convenios vinculados a programa de parcerias internacinoais:\n\nAlianca Francesa Grande ABC\nUniversidade de Alicante\nAUSJAL\nUniversitat Autonoma de Barcelona\nCAL POLY POMONA\nCONESTOGA\nUNIVERSIDADE DA CORUNA\nConventry University\nUniversity of Dunaujvaros\nGoethe Institut\nICAM\nKIT\nNew York Intitute of Technology\nUniversidad d Salamanca\nSantander universidades\n"]
+  },
+  {
+    "tag": "contato",
+    "patterns":["contato", "contatos"],
+    "responses": ["Email: internacional@fei.edu.br\nTelefone: +55 11 4353-2900 ramal: 2234\nPredio D sala 07"]
+  },
+  {
+    "tag": "outros",
+    "patterns":["mais informações", "outras informações"],
+    "responses": ["Acesse:\nhttps://portal.fei.edu.br/relacoes-internacionais\n"]
   }
 ]
 }
